@@ -104,4 +104,19 @@ void setup() {
   Serial.write("\n");
   Serial.write("Arduino Start");
   Display_Write_Number("Home.isMixing.val=", 0);
+  Serial.write("\n");
+
+  crsMix = "2807079900000000";
+
+  Progress_Bar();
+
+  Progress_Bar();
+  Progress_Bar();
+  Progress_Bar();
+  Progress_Bar();
+  Progress_Bar();
+  Progress_Bar();
+  Progress_Bar();
+  Progress_Bar();
+  Progress_Bar();
 }

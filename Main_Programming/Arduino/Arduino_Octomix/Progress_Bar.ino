@@ -7,10 +7,14 @@ void Progress_Bar(){
   int lenArray = sizeof(crsMix) / sizeof(crsMix[0]); 
   // how many steps there are for the mixing of a cocktail
   int mixSteps;
+  Serial.print("progress: ");
+  Serial.print(progress);
+  Serial.write("\n");
 
   switch (initProgress){
     // Initialization. This is only being executed once as a setup 
     case 1:
+    Serial.print("Case 1 ");
       // check how many steps are going to be made -> later used for progress addition 
       for (int i = 0; i < lenArray; i++){
         if (crsMix[i] != 0){
