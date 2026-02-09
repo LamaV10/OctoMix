@@ -25,7 +25,7 @@ int tempTest;
 }
 
 void valveMove(int position) {
-    if(position % 2 != 0){ //durch änderung im EV3 programm könnte man sich einen befehl spaaren
+  if(position % 2 != 0){ //durch änderung im EV3 programm könnte man sich einen befehl spaaren
     EV3_Com(EV3_VR);
     printLine("EV3_VR");
   } else {
