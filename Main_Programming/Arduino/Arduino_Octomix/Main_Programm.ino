@@ -25,6 +25,7 @@ int a[6] = {6, 8, 5, 9, 7, 10};
       delay(2000);*/
     }
   }
+
 // Programm zu Testzwecken für den Main Ablauf
   if(testRun == true){
    crsMix[0] = 0xF;  //15
